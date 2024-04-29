@@ -7835,6 +7835,10 @@ body::after {
         -ms-transform: translateY(-50%) rotate(-90deg);
             transform: translateY(-50%) rotate(-90deg);
   }
+
+  .search-header {
+    width: 100%;
+  }
 }
 
 @media (max-width: 71.875em) and (max-width: 29.99875em) {
@@ -7887,6 +7891,10 @@ body::after {
 }
 
 @media (max-width: 61.99875em) {
+  .menu__body {
+    padding-top: 6.25rem;
+  }
+
   .top {
     margin-top: 6.25rem;
   }
@@ -8011,10 +8019,6 @@ body::after {
   .header__button {
     text-align: center;
     margin-top: auto;
-  }
-
-  .search-header {
-    width: 100%;
   }
 
   .categories-header__body {
