@@ -984,6 +984,7 @@ body::after {
 }
 
 .title-decor {
+  display: inline-block;
   font-weight: 700;
   color: #fff;
   padding: 0rem 0.75rem 0.625rem 1.25rem;
@@ -1728,7 +1729,7 @@ body::after {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 0.5rem;
-  color: #7F7E97;
+  color: #7f7e97;
   font-weight: 900;
   font-size: 0.5rem;
 }
@@ -1785,7 +1786,7 @@ body::after {
 }
 
 .ratings-filter__star {
-  color: #D7D7D7;
+  color: #d7d7d7;
 }
 
 .ratings-filter__star--active {
@@ -8243,6 +8244,13 @@ body::after {
 
   .menu__link {
     width: 100%;
+  }
+
+  .title-decor--line::before {
+    top: -1.875rem;
+    right: -1.875rem;
+    width: 2.5625rem;
+    height: 3rem;
   }
 
   .button {
